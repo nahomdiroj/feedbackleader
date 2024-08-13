@@ -51,7 +51,7 @@ const Board = () => {
         <span className="font-light text-gray-600">Bank of Abisiniya</span>
         <div className='py-2'>
        
-        <input type="text" id="search" name="search" onChange={(e)=>setSearch(e.target.value)}/>
+        <input type="text" id="search" placeholder='search' name="search" onChange={(e)=>setSearch(e.target.value)} className='border rounded-lg border-gray-600 px-2'/>
         </div>
       </div>
       <div className="mt-2">
